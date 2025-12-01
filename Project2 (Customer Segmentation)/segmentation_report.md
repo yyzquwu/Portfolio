@@ -44,6 +44,23 @@ Using K-Means clustering (K=4), we identified four data-driven personas that ali
 -   **Alignment:** Corresponds to low-value **Hibernating** customers.
 -   **Insight:** Low value and churned. Likely not worth high acquisition costs to re-engage. Automated emails only.
 
+## 4. Deep Dive: Segment Profiling
+### Product Preferences
+-   **Universal Favorites:** "Bed Bath Table" (cama_mesa_banho) and "Health Beauty" (beleza_saude) are top categories across almost all segments.
+-   **Tech Lovers:** "Loyal Customers" have a higher affinity for "Computers & Accessories" than other groups.
+-   **Home Decor:** "Hibernating" and "Can't Lose Them" customers buy heavily in "Furniture Decor".
+
+### Customer Satisfaction (Review Scores)
+-   **Champions:** Highest satisfaction (**4.22/5**). They buy often, spend well, and are happy.
+-   **Loyal Customers:** Surprisingly lower satisfaction (**4.07/5**). Despite frequent purchases, they might be experiencing fatigue or minor service issues.
+-   **Action:** Investigate why "Loyal Customers" are less happy than "Champions". A small VIP perk or proactive support could boost their sentiment.
+
+## 5. Strategic Recommendations
+-   **Champions:** Reward them! Early access to new "Health & Beauty" products.
+-   **Loyal Customers:** They need love. Send a "Thank You" discount or survey to address the slightly lower satisfaction.
+-   **Recent Users:** Cross-sell "Bed Bath Table" items as they are the most likely next purchase.
+-   **At Risk / Hibernating:** Re-engage with "Home Decor" offers, as this is a strong category for them.
+
 ### Cluster 2: "Loyal & Active" (~2.8k customers)
 -   **Characteristics:** Moderate Recency (~220 days), **High Frequency (~2.1)**, High Spend (~$260).
 -   **Alignment:** Corresponds to **Loyal Customers** and **At Risk** (repeat buyers).

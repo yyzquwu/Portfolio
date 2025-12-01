@@ -50,7 +50,30 @@ The business model appears to be transactional rather than relationship-based. T
 
 ---
 
-## 4. Next Steps
+## 4. Deep Dive Findings
+### Delivery Performance
+-   **Average Delivery Time:** 12.06 days.
+-   **Average Delay:** -11.92 days (Orders arrive ~12 days *early* on average).
+-   **Impact on Reviews:** Strong correlation between delays and lower scores. Late orders almost guarantee negative reviews.
+
+### Payment Behavior
+-   **Dominant Method:** Credit Card (74%), followed by Boleto (19%).
+-   **Installments:** Credit card users average 3.5 installments, while other methods are mostly single-payment. High-value orders drive installment usage.
+
+### Geospatial Revenue
+-   **Top State:** SP (São Paulo) generates ~6M BRL, far outpacing RJ (2.1M) and MG (1.8M).
+-   **Strategy:** Logistics optimization should focus heavily on the Southeast region (SP, RJ, MG) where the bulk of revenue originates.
+
+---
+
+## 5. Recommendations
+1.  **Optimize Logistics:** While average delivery is early, consistency is key. Focus on reducing the long-tail of late deliveries to boost 1-star reviews to 4-5 stars.
+2.  **Payment Incentives:** Since Boletos are 19% of orders but have lower conversion (from previous analysis), offer small discounts for Credit Card or PIX to secure payments faster.
+3.  **Regional Marketing:** Double down on SP/RJ/MG for marketing efficiency, but explore under-served states for growth potential.
+
+---
+
+## 6. Next Steps
 -   **Segment Analysis:** Break down metrics by product category to find high-performing niches.
 -   **Geographic Analysis:** Map revenue by state/city to optimize logistics.
 -   **Delivery Time Analysis:** Correlate delivery speed with customer satisfaction (review scores).
