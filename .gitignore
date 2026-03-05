@@ -12,3 +12,9 @@ venv/
 # Any local DBs / large data files
 *.db
 data/
+
+# Secret/config files
+*.env
+*.env.*
+!.env.example
+!*.env.example
